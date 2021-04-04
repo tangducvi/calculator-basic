@@ -1,0 +1,9 @@
+Quy ước:
+- Dấu "." là dấu phẩy thể hiện số thập phân
+- Các phép tính + - * /
+- Nhân chia trước cộng trừ sau
+- Ưu tiên tính toán từ trái qua phải
+- Nút AC để reset máy tính về ban đầu
+- Nút C để xoá đi 1 phần tử 
+- Khi bấm nút cộng sau đó bấm nút trừ thì hiểu đó là dấu trừ. tương tự vs nhân chia
+- 

@@ -1,0 +1,97 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: UTM Avo;
+}
+
+.container {
+	margin: auto;
+	text-align: center;
+	width: 100%;
+	max-width: 420px;
+	background-color: #252525;
+	margin-top: 50px;
+	border-radius: 10px;
+	position: relative;
+}
+
+.container input {
+	width: 100%;
+	padding: 45px 15px;
+}
+
+.calculator {
+	width: 100%;
+}
+.result {
+	height: 190px;
+	padding: 10px;
+}
+.result p {
+	margin: 10px 0;
+	text-align: right;
+}
+.result-1 {
+	height: 140px;
+	border: 1px #ff7b54 solid;
+	border-radius: 10px;
+	background-color: white;
+}
+
+.history {
+	height: 20px;
+	margin: 0 20px;
+	padding-top: 20px;
+	font-size: 20px;
+	color: #919191;
+	text-align: right;
+}
+
+.calc {
+	color: #ff7b54;
+}
+
+.history-value {
+	text-align: right;
+}
+
+.output {
+	text-align: right;
+	height: 60px;
+	margin: 50px 20px 0 20px;
+	font-size: 40px;
+	color: #ff7b54;
+}
+.button {
+	display: grid;
+	grid-template-columns: auto auto auto auto auto auto;
+	text-align: center;
+	grid-gap: 8px;
+	justify-content: space-around;
+	padding: 10px;
+	margin-top: 5px;
+}
+
+button {
+	padding: 20px;
+	min-width: 60px;
+	outline: none;
+	border: 0px;
+	font-size: 20px;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: #7eca9c;
+}
+.row2 {
+	grid-row: span 2;
+}
+.number {
+	background-color: #03506f;
+	color: #fff;
+}
+.clear, .backspace, .orange, .clear {
+	background-color: #ff7b54;
+}
